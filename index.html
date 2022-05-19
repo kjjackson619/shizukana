@@ -25,40 +25,93 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Our Culture</a>
+                    <a class="nav-link" href="#our-culture">Our Culture</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link dropdown-toggle" href="#menu" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Menu
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Tea</a></li>
-                        <li><a class="dropdown-item" href="#">Coffee</a></li>
+                        <li><a class="dropdown-item" href="#tea">Tea</a></li>
+                        <li><a class="dropdown-item" href="#coffee">Coffee</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">Snacks</a></li>
+                        <li><a class="dropdown-item" href="#snacks">Snacks</a></li>
                     </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact-us">Contact Us</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <!-- carousel for slide pics -->
-    <div id="carouselSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div id="carouselSlidesOnly" class="carousel slide carousel-fade pb-5" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/photos/tea pic 1.jpeg" class="d-block w-100" alt="...">
+                <img src="assets/photos/tea pic 1.jpeg" class="d-block w-100" alt="tea aesthetic">
             </div>
             <div class="carousel-item">
-                <img src="assets/photos/tea pic 2.jpeg" class="d-block w-100" alt="...">
+                <img src="assets/photos/tea pic 2.jpeg" class="d-block w-100" alt="green tea in nature">
             </div>
             <div class="carousel-item">
-                <img src="assets/photos/coffee pic 1.jpeg" class="d-block w-100" alt="...">
+                <img src="assets/photos/coffee pic 1.jpeg" class="d-block w-100" alt="coffee and snack setup">
             </div>
         </div>
     </div>
+
+    <!-- culture and about us -->
+    <section id="#our-culture">
+        <div class="flex-row pb-5">
+            <h2>Our Culture</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus deleniti vitae commodi ex minus
+                error repellat unde, tempora consectetur nemo dolorem omnis dolor beatae fugit laudantium sed
+                accusantium quam vero?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque atque iusto, odio, quisquam libero at
+                necessitatibus fuga exercitationem, officia officiis similique. Saepe itaque ipsum corporis provident
+                fuga fugit laudantium distinctio?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex voluptates sed quos, autem accusantium
+                eveniet explicabo earum similique aliquid reiciendis alias tempora sunt incidunt praesentium maiores
+                ratione dolor saepe officiis.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ducimus pariatur quas illo
+                voluptatibus quibusdam deleniti architecto sit doloremque nesciunt consectetur quia numquam, delectus
+                assumenda inventore quo deserunt itaque sint!
+            </p>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="#contact-us">
+        <div class="flex-row">
+            <h2>Contact Us</h2>
+        </div>
+
+        <div class="container-fluid pb-5">
+            <div class="row">
+                <div class="col">
+                    <form class="form">
+                        <div class="mb-3">
+                            <label for="contact-name">Name</label>
+                            <input class="form-control" type="text" id="contact-name" placeholder="Enter Your Name" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="email">Email</label>
+                            <input class="form-control" type="text" id="email" placeholder="Enter Your Email Address" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="message">Message</label>
+                            <input class="form-control" for="text" id="message" placeholder="Send us a Message" />
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
     <footer>
         &copy
